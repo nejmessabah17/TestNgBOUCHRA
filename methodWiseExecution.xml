@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/bouch/testNGBasicsBatch15/src/test/java/Class01/testNGExample.java">
+        <classes>
+            <class name="Class01.testNGExample">
+            <methods>
+                <include name="loginFunctionality"/>
+                <include name="passwordTextBoxVerification"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+</suite>
